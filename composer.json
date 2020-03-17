@@ -1,5 +1,5 @@
 {
-    "name": "omnipay/authorizenet",
+    "name": "krsman/authorizenet",
     "type": "library",
     "description": "Authorize.Net gateway for the Omnipay payment processing library",
     "keywords": [
@@ -28,7 +28,7 @@
         "psr-4": { "Omnipay\\AuthorizeNet\\" : "src/" }
     },
     "require": {
-        "omnipay/common": "^3",
+        "krsman/omnipay-common": "master",
         "ext-json": "*",
         "ext-libxml": "*",
         "ext-simplexml": "*"
